@@ -161,3 +161,16 @@
 
 @media screen and (max-width: 768px) {
 }
+
+
+.social-logo {
+  display: flex;
+  align-items: center;
+}
+
+.social-logo img {
+  margin-left: 10px; /* Adds space between the text and the image */
+  width: 30px;  /* adjust to match your icon size */
+  height: 30px; /* adjust to match your icon size */
+  object-fit: contain; /* ensures the image fits without distortion */
+}

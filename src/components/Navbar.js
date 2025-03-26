@@ -28,10 +28,10 @@ function Navbar() {
     <>
       <nav className='navbar'>
         <div className='navbar-container'>
-          <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-            Innovations Boutique
-            <i class='fab fa-typo3' />
-          </Link>
+        <Link to='/' className='social-logo'>
+        Innovations Boutique
+        <img src='images/inno.png' alt='Logo' class='logo-image' />
+      </Link>
           <div className='menu-icon' onClick={handleClick}>
             <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
           </div>
@@ -43,30 +43,39 @@ function Navbar() {
             </li>
             <li className='nav-item'>
               <Link
-                to='/services'
+                to='/PAM'
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
-                Services
+                PAM
               </Link>
             </li>
             <li className='nav-item'>
               <Link
-                to='/products'
+                to='/projects'
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
-                Products
+                Projects
+              </Link>
+            </li>
+            <li className='nav-item'>
+              <Link
+                to='/about-me'
+                className='nav-links'
+                onClick={closeMobileMenu}
+              >
+                About Me
               </Link>
             </li>
 
             <li>
               <Link
-                to='/sign-up'
+                to='/contact'
                 className='nav-links-mobile'
                 onClick={closeMobileMenu}
               >
-                Sign Up
+                Contact
               </Link>
             </li>
           </ul>

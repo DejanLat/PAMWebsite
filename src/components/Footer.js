@@ -21,15 +21,15 @@ function Footer() {
               type='email'
               placeholder='Your Email'
             />
-            <Button buttonStyle='btn--outline'>Subscribe</Button>
+            <Button buttonStyle='btn--outline'>Connect</Button>
           </form>
         </div>
       </section>
-      <div class='footer-links'>
+      {/* <div class='footer-links'>
         <div className='footer-link-wrapper'>
           <div class='footer-link-items'>
             <h2>About Us</h2>
-            <Link to='/sign-up'>How it works</Link>
+            <Link to='/contact'>How it works</Link>
             <Link to='/'>Testimonials</Link>
             <Link to='/'>Careers</Link>
             <Link to='/'>Investors</Link>
@@ -59,18 +59,18 @@ function Footer() {
             <Link to='/'>Twitter</Link>
           </div>
         </div>
-      </div>
+      </div> */}
       <section class='social-media'>
         <div class='social-media-wrap'>
           <div class='footer-logo'>
             <Link to='/' className='social-logo'>
-              TRVL
-              <i class='fab fa-typo3' />
+                Innovations Boutique 
+              <img src='images/inno.png' alt='Logo' class='logo-image' />
             </Link>
           </div>
-          <small class='website-rights'>TRVL © 2020</small>
-          <div class='social-icons'>
-            <Link
+            <small class='website-rights'>Innovations Boutique © 2025</small>
+        <div class='social-icons'>
+            {/* <Link
               class='social-icon-link facebook'
               to='/'
               target='_blank'
@@ -101,13 +101,12 @@ function Footer() {
               aria-label='Twitter'
             >
               <i class='fab fa-twitter' />
-            </Link>
+            </Link> */}
             <Link
               class='social-icon-link twitter'
-              to='/'
+              to='https://www.linkedin.com/in/dejanlatkovic/'
               target='_blank'
-              aria-label='LinkedIn'
-            >
+              aria-label='LinkedIn'>
               <i class='fab fa-linkedin' />
             </Link>
           </div>
