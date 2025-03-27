@@ -8,11 +8,9 @@ import './Pamhero.css';
 function HeroSection() {
     return (
         <div className='pamhero-container'>
-            <video src='/videos/video-1.mp4' autoPlay loop muted />
-            <h1>PrecisionArc Microscope</h1>
-            <p>*Insert Phrase*</p>
-            <div className='hero-btns'>
-            </div>
+            <h1>See Beyond Limits</h1>
+                <p>The PrecisionArc Microscope—expanding access to the inaccessible</p>
+            
         </div>
     )
 }  

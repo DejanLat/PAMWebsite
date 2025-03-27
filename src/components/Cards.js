@@ -5,40 +5,40 @@ import CardItem from './CardItem';
 function Cards() {
   return (
     <div className='cards'>
-      <h1>Check out these EPIC Destinations!</h1>
+      <h1>Go Ahead! Check It Out!</h1>
       <div className='cards__container'>
         <div className='cards__wrapper'>
           <ul className='cards__items'>
             <CardItem
-              src='images/img-9.jpg'
-              text='Explore the hidden waterfall deep inside the Amazon Jungle'
-              label='Adventure'
-              path='/projects'
+              src='images/img-24.png'
+              text='The all in one solution to scanning any inaccessible sample'
+              label='PreciscionArc Microscope'
+              path='/pam'
             />
             <CardItem
-              src='images/img-2.jpg'
-              text='Travel through the Islands of Bali in a Private Cruise'
-              label='Luxury'
+              src='images/img-25.png'
+              text='All my smaller projects in the lab.'
+              label='Institute for Quantum Computing'
               path='/projects'
             />
           </ul>
           <ul className='cards__items'>
             <CardItem
-              src='images/img-3.jpg'
-              text='Set Sail in the Atlantic Ocean visiting Uncharted Waters'
-              label='Mystery'
+              src='images/img-20.png'
+              text='Visualizing reverse engineered NV diamond nano strucutres'
+              label='Blender'
               path='/projects'
             />
             <CardItem
-              src='images/img-4.jpg'
-              text='Experience Football on Top of the Himilayan Mountains'
-              label='Adventure'
-              path='/about-me'
+              src='images/img-26.png'
+              text='Understanding the difference between simulation and reality'
+              label='Machining'
+              path='/projects'
             />
             <CardItem
-              src='images/img-8.jpg'
-              text='Ride through the Sahara Desert on a guided camel tour'
-              label='Adrenaline'
+              src='images/img-14.png'
+              text='Check out the my project car!'
+              label='Hands On'
               path='/contact'
             />
           </ul>

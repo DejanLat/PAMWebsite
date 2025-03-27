@@ -7,7 +7,7 @@ video {
   }
   
   .pamhero-container {
-    /* background: url('../../public/images/img-home.jpg') center center/cover no-repeat; */
+    background: url('../../public/images/img-22.png') center center/cover no-repeat;
     height: 100vh;
     width: 100%;
     display: flex;

@@ -8,8 +8,8 @@ import './HeroSection.css';
 function HeroSection() {
     return (
         <div className='hero-container'>
-            <h1>PrecisionArc Microscope</h1>
-            <p>*Insert Phrase*</p>
+            <h1>Where Innovation Meets Precision</h1>
+            <p>The PrecisionArc Microscope—rethinking how we explore the unseen</p>
             <div className='hero-btns'>
                 <Button 
                     className='btns' 
@@ -18,14 +18,14 @@ function HeroSection() {
                 >
                      Dive Deeper
                  </Button>
-                 <Button 
+                 {/* <Button 
                     className='btns' 
                     buttonStyle='btn--primary'
                     buttonSize='btn--large'
                 >
                      DEMONSTRATION <i className='far fa-play-circle' /> 
                      
-                 </Button>
+                 </Button> */}
             </div>
         </div>
     );

@@ -1,6 +1,16 @@
 import React from 'react';
 import '../../App.css';
+import Aboutmecards from '../Aboutmecards';
+import Aboutmehero from '../Aboutmehero';
 
-export default function AboutMe() {
-  return<h1 className='about-me'>About Me</h1>;
+function PAM() {
+  return (
+    <>
+      <Aboutmehero />
+      {/* <Aboutmecards /> */}
+    </>
+  )
 }
+
+
+export default PAM
