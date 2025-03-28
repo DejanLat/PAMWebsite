@@ -5,13 +5,35 @@ import CardItem from './CardItem';
 function Pamcards() {
   return (
     <div className='pamcards'>
-      <h1>Check out these EPIC Destinations!</h1>
-        <p>efw</p>
-        <p>efw</p>
-        <p>efw</p>
-        <p>efw</p>
-        <p>efw</p>
-      <div className='pamcards__container'>
+      <h1>See the Full History of PAM Below!</h1>
+
+      {/* New Section with Image on Left & Text on Right */}
+      <div className="pamcards__info">
+        <img src="images/img-9.jpg" alt="Example" className="pamcards__image" />
+        <p className="pamcards__text">
+          This is an example of how you can wrap text around an image. You can
+          write a description here and add more details if needed.
+        </p>
+      </div>
+      <div className="pamcards__info">
+        <a href="pdfs/paper1.pdf" target="_blank">  
+          <img src="images/img-9.jpg" alt="Example" className="pamcards__image" />
+        </a>
+        <p className="pamcards__text">
+          This is an example of how you can wrap text around an image. You can
+          write a description here and add more details if needed.
+        </p>
+        
+      </div>
+      <div className="pamcards__info">
+        <img src="images/img-9.jpg" alt="Example" className="pamcards__image" />
+        <p className="pamcards__text">
+          This is an example of how you can wrap text around an image. You can
+          write a description here and add more details if needed.
+        </p>
+      </div>
+
+      {/* <div className='pamcards__container'>
         <div className='pamcards__wrapper'>
           <ul className='pamcards__items'>
             <CardItem
@@ -26,7 +48,7 @@ function Pamcards() {
             />
           </ul>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }
